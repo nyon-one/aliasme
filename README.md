@@ -9,8 +9,7 @@ A shell script to organize your alias in command line.
 
 - download script
 ```bash
-  mkdir ~/.aliasme
-  curl https://raw.githubusercontent.com/Jintin/aliasme/master/aliasme.sh > ~/.aliasme/aliasme.sh
+  mkdir ~/.aliasme && cd ~/.aliasme && wget https://raw.githubusercontent.com/Jintin/aliasme/master/aliasme.sh
 ```
 - add alias to your startup script (ex: ~/.bash_profile, ~/.bashrc)
 ```bash
